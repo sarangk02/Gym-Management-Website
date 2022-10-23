@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+body{
+    background-image: url(home-bg.jpg);
+     background-attachment: fixed;
+     background-size: cover;
+     color: whitesmoke;
+}
+
+/* ------ Navigation ------*/
+
+nav {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 40px;
+}
+.nav-container {
+    height: 150px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.company {
+    display: flex;
+    align-items: center;
+}
+#nav-logo-text {
+    color: white;
+    font-size: 36px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-weight: 600;
+}
+.nav-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nav-button {
+    padding: 10px;
+    margin-left: 10px;
+    width: 120px;
+    color: rgb(255, 255, 255);
+    background-color: #00000034;
+    border: 2px #E72A00 solid;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+#nav-button:hover, #nav-button:active {
+    color: #E72A00;
+    background-color: #ffffff;
+    border: 2px #E72A00 solid;
+}
+
+/* ------ Footer ------*/
+
+footer{
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.foot-container {
+    height: 250px;
+    display: flex;
+    flex-flow: column wrap;
+    overflow-y: hidden;
+}
+.foot-item {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#foot-item-1{
+    width: 30%;
+}
+#foot-item-2{
+    width: 70%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+.foot-span {
+    display: inline-block;
+    padding-right: 35px;
+    padding-bottom: 8px;
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+    transition-duration: 300ms;
+}
+#contact-icon {
+    padding: 2px;
+    height: 23px;
+    background-color: white;
+}
+.foot-span:hover ,.foot-span:active {
+    color: #E72A00;
+}
+#foot-para1 {
+    color: white;
+    padding-top: 30px;
+    font-size: 18px;
+}
+#foot-para2 {
+    color: white;
+    padding-top: 5px;
+    font-size: 18px;
+}
+#foot-link {
+    font-size: 120%;
+    text-decoration: underline;
+    transition-duration: 200ms;
+}
+#foot-link:hover {
+    color: #E72A00;
+}
+
+/* ------ Main body content ------*/
+
+.trainer-profile {
+    max-width: 1024px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 20px;
+}
+div.trainer-profile h1{
+    text-align: center;
+    color: #E72A00;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+}
+.tp-container {
+    display: flex;
+    margin: 20px 0 ;
+}
+.tp-subcontainer {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+#left-tp-sub {
+    justify-content: center;
+    align-items: center;
+    width: 35%;
+}
+#right-tp-sub {
+    width: 65%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.tp-img {
+    width: 300px;
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    border-radius: 300px;
+}
+.tp-info-type {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+}
+.tp-info-main {
+    font-size: 24px;
+    color: rgba(255, 255, 255);
+}
